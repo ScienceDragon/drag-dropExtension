@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+	line-height: 1.8em;
+	color: #C6C6C6;
+	background: url(images/stars4.jpg);
+	background-size: 300px 300px;
+	background-repeat: repeat;
+	/*#1F1F1F;*/
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background: #999;
+	color: #333;
+}
+
+.p {
+	color: #fff;
+}
+
+h2, h3, h4 {
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+	color: #C6C6C6;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 3em;
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+	color: #C6C6C6;
+}
+
+
+div#content {
+	margin: 40px 70px;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div#cardSlots {
+	margin: 25px auto 0;
+	background-color: #999;
+	opacity: .75;
+}
+
+div#cardPile {
+	margin-left: auto;
+	margin-right: auto;
+	background: url(images/clear-bg.png);
+	background-repeat: repeat;
+}
+
+div#cardSlots, div#cardPile {
+	width: 915px;
+	height: 140px;
+	padding: 10px;
+	border: 2px solid Black;
+	-wibkit-border-radium: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 5px;
+}
+
+/* card appearance*/
+div#cardPile div {
+	float: left;
+	width: 100px;
+	height: 60px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: solid 2px black;
+	background-color: #666;
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	vertical-align: middle;
+	color: #EAEAEA;
+}
+
+div#cardSlots div {	
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: solid 2px black;
+	background-color: #666;
+	font-family: Gotham, "Gotham", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	vertical-align: middle;
+	color: #EAEAEA;
+	padding-top: 20px;
+	
+	
+}
+
+div#cardSlots div:first-child,
+div#cardPile div:first-child {
+}
+
+div#cardSlots div.hovered {
+	background-color: Yellow;
+}
+
+div#cardPile div {
+	color: #333;
+	font-size: 0px;
+}
+
+div#cardSlots div {
+	border: dashed 2px black;
+}
+
+div#cardPile div.ui-draggable-dragging {
+	-webkit-box-shadow: 0 0 0.5em black;
+	-moz-box-shadow: 0 0 0.5em black;
+	box-shadow: 0 0 0.5em black;
+}
+
+div#cardPile div.correct { 
+	border: solid 2px lime; 
+}
+	
+div#card1 { 	background: url(images/belgium.jpg); background-size: 100px 60px; }	
+div#card2 { 	background: url(images/brazil.jpg); 	background-size: 100px 60px; }
+div#card3 { 	background: url(images/canada.jpg); 	background-size: 100px 60px; }
+div#card4 { background: url(images/denmark.jpg);	 background-size: 100px 60px; }
+div#card5 { background: url(images/france.jpg);	background-size: 100px 60px; }
+div#card6 { background: url(images/germany.jpg);	 background-size: 100px 60px; }
+div#card7 { background: url(images/italy.jpg); background-size: 100px 60px; }
+div#card8 { background: url(images/japan.jpg); background-size: 100px 60px; }
+div#card9 { background: url(images/netherlands.jpg);	 background-size: 100px 60px; }
+div#card10 { background: url(images/norway.jpg);	 background-size: 100px 60px; }
+div#card11 { background: url(images/russia.jpg);	 background-size: 100px 60px; }
+div#card12 { background: url(images/spain.jpg) ;	 background-size: 100px 60px; }
+div#card13 { background: url(images/sweden.jpg);	 background-size: 100px 60px; }
+div#card14 { background: url(images/swiss.jpg) ;	 background-size: 100px 60px; }
+div#card15 { background: url(images/uk.jpg);	 background-size: 100px 60px; }
+div#card16 { background: url(images/usa.jpg); background-size: 100px 60px; }
+
+div#successMessage {
+	position: absolute;
+	left: 500px;
+	top: 250px;
+	width: 0;
+	height: 0;
+	z-index: 40;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+	background: #2F7F91;
+	background-size: 400px 200px;
+	border: 2px solid #333;
+	padding: 20px;
+}
+
+
